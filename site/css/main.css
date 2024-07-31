@@ -3,8 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
+<title>Main.CSS</title>
 <style>
+
+
+<p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
 
 /********** Base styles **********/
 * {
@@ -24,11 +27,6 @@ content {
 p {
  collor: yellow;
   background-color: black;
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
 }
 
 /********** Large devices only **********/
