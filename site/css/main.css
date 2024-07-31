@@ -6,10 +6,6 @@
 <title>Responsive Layout</title>
 <style>
 
-html {
-  background-color: #00539f;
-}
-
 /********** Base styles **********/
 * {
   box-sizing: border-box;
