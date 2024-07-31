@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Main</title>
-<style>
+</head>
 
-
-<p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
+<body>
+<h1> test </h1>
 
 /********** Base styles **********/
 * {
@@ -160,10 +160,4 @@ p {
     width: 100%;
   }
 
-</style>
-</head>
-<body>
-<h1>Responsive Layout</h1>
-
-</body>
 </html>
