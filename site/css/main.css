@@ -3,35 +3,33 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
-  justify-content: center;
-  height: 5vh;
-  margin: 0;
-  background-color: #f0f0f0;
-  color: #333;
+  justify-content: center; /* Horizontally centers the outer box */
+  align-items: center;     /* Vertically centers the outer box */
+  height: 100vh;           /* Full height of the viewport */
+  margin: 0;               /* Remove default margin */
+  background-color: #e0e0e0; /* Light grey background for contrast */
 }
 
-.box {
-  background-color: lightgray;
-  padding: 10px 15px 10px 10px;
-  border: 3px solid black;
-  width: 500px;
+.outer-box {
+  width: 400px;            /* Width of the outer box */
+  height: 300px;           /* Height of the outer box */
+  padding: 20px;           /* Padding inside the outer box */
+  border: 5px solid #007bff; /* Border of the outer box */
+  background-color: #fff;  /* Background color of the outer box */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Horizontally centers the inner box */
+  align-items: center;     /* Vertically centers the inner box */
+  box-sizing: border-box;  /* Includes padding and border in the specified width and height */
 }
 
-h1 {
-  font-size: 26px;
-  color: black;
-  text-align: center;
-  padding: 20px;
-}
-
-h2 {
-  font-size: 16px;
-  color: black;
-  text-align: right;
-  padding: 20px;
+.inner-box {
+  width: 200px;            /* Width of the inner box */
+  height: 150px;           /* Height of the inner box */
+  padding: 10px;           /* Padding inside the inner box */
+  border: 3px solid #ff5733; /* Border of the inner box */
+  background-color: #f9f9f9; /* Background color of the inner box */
+  text-align: center;      /* Center the text inside the inner box */
+  box-sizing: border-box;  /* Includes padding and border in the specified width and height */
 }
 
 p {
