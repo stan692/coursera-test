@@ -7,9 +7,6 @@ body {
 }
 
 h1 {
+  font-size: 16 px
   color: #007bff;
-}
-
-p {
-  font-size: 46px;
 }
