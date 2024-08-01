@@ -8,7 +8,7 @@ body {
 
 header {
   text-align: center; /* Horizontally centers the title */
-  padding: 20px;      /* Adds some space around the title */
+  padding: 40px;      /* Adds some space around the title */
   background-color: #f4f4f4; /* Light background color for the header */
 }
 
