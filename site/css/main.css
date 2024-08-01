@@ -7,18 +7,14 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: center; /* Horizontally centers the title */
-  align-items: center;     /* Vertically centers the title */
+  text-align: center;
+  padding: 20px;
   background-color: #f4f4f4; /* Light background color for the header */
 }
 
 h1 {
-  font-size: 24px;
-  color: black;
-  display: flex;
-  justify-content: center; /* Horizontally centers the title */
-  align-items: center;     /* Vertically centers the title */
+  margin: 0;
+  font-size: 26px;
 }
 
 .outer-box {
