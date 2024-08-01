@@ -32,7 +32,7 @@ body {
   box-sizing: border-box;  /* Includes padding and border in the specified width and height */
 }
 
-p {
+h1 {
   font-size: 14px;
   color: black;
 }
