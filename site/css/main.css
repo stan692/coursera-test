@@ -6,7 +6,7 @@ body {
   color: #333;
 }
 
-.grid-container {
+.box {
   display: grid;
   place-items: right;
   text-align: left;
