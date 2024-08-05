@@ -51,19 +51,19 @@ body{
 }
 
 #title-one {
-  background-color: #D59898;
+  background-color: #D59896;
 } 
 
 #title-two{
-  background-color: #C14543;
+  background-color: #C14541;
 }
 
 #title-three{
   background-color: #E5d190;
 }
 
-/* Simple Responsive Framework. */
-/*------ Desktop ------*/
+/* Responsive Framework. */
+/*DESKTOP*/
 @media (min-width: 992px){
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;  
@@ -108,7 +108,7 @@ body{
 }
 
 
-/*------ Tablet ------*/
+/* TABLET */
 @media (min-width: 768px) and (max-width: 991px){
   .col-lg-4 {
     width: 50%;
@@ -121,7 +121,7 @@ body{
 }
 
 
-/*------ Mobile ------*/
+/* MOBILE */
 @media (max-width: 767px){
   .col-lg-4{
     width: 100%;
